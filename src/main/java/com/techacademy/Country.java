@@ -13,6 +13,7 @@ import lombok.NoArgsConstructor;
 @NoArgsConstructor
 @Entity
 @Table(name="country")
+// country テーブルに対するエンティティクラス
 public class Country {
     @Id
     private String code;
